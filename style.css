@@ -152,7 +152,7 @@
 @media screen and (max-width:576px){
 
     .header{
-        width:auto;
+        width:100%;
     
     }
 
@@ -168,7 +168,15 @@
     }
    
     .Feature-section{
+        max-width: auto;
+        margin: 150px auto 0;
         text-align: center;
+    }
+    .Feature-section-description{
+       
+        width: auto;
+        text-align: center;
+        
     }
     .row{
         flex-direction: column;
@@ -180,7 +188,7 @@
     .img-layer-1{
         
         width:auto;
-        height:auto;
+       
     }
     
     .img-layer-2{
