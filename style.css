@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-
+body{
+    background-color: rgb(247, 233, 233);
+}
 *{
     margin:0;
     padding: 0;
@@ -72,6 +74,7 @@
     max-width: 80%;
     margin: 150px auto 0;
     text-align: center;
+
 }
 
 .Feature-section-title{
@@ -104,11 +107,10 @@
 }
 
 .flower{
-    width:330px;
-    height:430px;
+   flex: 1;
 }
 .img-layer-1{
-    width:330px;
+    width:345px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
@@ -116,14 +118,14 @@
 }
 
 .img-layer-2{
-    width:330px;
+    width:345px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
 }
 
 .img-layer-3{
-    width:330px;
+    width:345px;
     height: 380px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
@@ -149,6 +151,272 @@
     margin-top: 30px;
 }
 
+.Feature-section-last{
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 120px;
+    align-items: center;
+    height: 230px;
+    
+}
+
+.Feature-section-row{
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.Feature-section-img{
+    width:25%;
+    height: 25%;
+}
+
+.Feature-section-last-title{
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px;
+}
+
+/*sale banner style*/
+.sale-banner{
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin-top: 120px;
+}
+.sale-wrap{
+    max-width:80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+
+
+}
+
+.sale-content{
+    width:420px;
+    text-align: center;
+
+    
+}
+.sale-content-title{
+    font-family: Lato;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    
+}
+
+.red-color{
+    color: red;
+}
+.sale-content-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+}
+.sale-content-btn{
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    padding: 14px 36px 14px 36px;
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-top: 25px;
+    display: inline-block;
+    
+
+}
+.sale-content-img{
+    width:20%;
+    height:20%;
+    margin: 90px 0;
+}
+
+/*social banner style*/
+.social-banner{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+.social-banner-title{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    
+}
+
+.social-banner-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width:395px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+.social-banner-content{
+    display: flex;
+    gap:10px;
+    margin-top: 40px;
+}
+.social-banner-img-row{
+    flex: 1;
+}
+
+.social-banner-img-row > img{
+    width: 100%;
+    height: 100%;
+}
+
+/*login-form style*/
+
+.login-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 120px auto 0;
+    text-align: center;
+    background-image: url('Flower Asset/Rectangle 9.png');
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+
+
+.login-form-title{
+    color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 34px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0%;
+    
+}
+
+.login-form-description{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.login-form-container{
+    margin-top: 40px;
+}
+.login-form-input{
+    width:490px;
+    height:50px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding-left: 20px;
+    
+}
+
+.login-form-btn{
+    width: 105px;
+    height: 50px;
+    border-radius: 8px;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    border: none;
+    
+}
+
+/*Footer-section style*/
+
+.footer-section{
+    background: rgb(17, 16, 16);
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.footer-wrap{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
+.footer-content{
+    text-align: center;
+}
+
+.footer-title{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 58px;
+    letter-spacing: 0%;
+    color:white
+    
+}
+
+.footer-content-description{
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    width:445px;
+    margin-top: 22px;
+
+}
+
+.footer-content-txt{
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    margin-top: 30px;
+   
+}
 @media screen and (max-width:576px){
 
     .header{
@@ -181,10 +449,7 @@
     .row{
         flex-direction: column;
     }
-    .flower{
-        width:auto;
-        height:auto;
-    }
+    
     .img-layer-1{
         
         width:auto;
@@ -206,4 +471,62 @@
         width:auto;
         
     }
+
+    .Feature-section-last{
+       flex-direction: column;
+       height: auto;
+        
+    }
+
+    /*sale-banner responsive*/
+    .sale-wrap{
+        flex-direction: column;
+       
+    }
+    .sale-content-img{
+        width:auto;
+        height:auto;
+       
+        
+    }
+    .sale-content{
+        width:auto;
+        margin: 100px auto 0;
+ 
+    }
+
+    /*Social banner responsive*/
+
+    .social-banner-content{
+        flex-direction: column;
+    }
+
+    .social-banner-title{
+        margin-top: 100px;
+        width: auto;
+
+    }
+
+    /*login-form responsive*/
+    
+    .login-form-input{
+        width:100%;
+        height:50px;
+    }
+    
+    .login-form-btn{
+        width: 30%;
+        height: 50px;
+        display: block;
+        margin: 20px auto 0;
+    }
+
+    /*Footer section responsive*/
+ 
+    .footer-content-description{
+       
+        width:auto;
+        
+    }
+
 }
