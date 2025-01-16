@@ -513,6 +513,14 @@ body{
 
     }
 
+    .social-banner-description{
+       
+        width:auto;
+        margin: 0 auto;
+        
+        
+    }
+
     /*login-form responsive*/
     
     .login-form-input{
@@ -526,7 +534,7 @@ body{
         display: block;
         margin: 20px auto 0;
     }
-
+    
     /*Footer section responsive*/
  
     .footer-content-description{
