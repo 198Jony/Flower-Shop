@@ -9,7 +9,7 @@ body{
     box-sizing: border-box;
 }
 
-/*banner section*/
+/*banner section style*/
 .header{
     width:1360px;
     background: rgba(229, 84, 115, 0.1);
@@ -425,7 +425,7 @@ body{
     border: 1px solid rgb(229, 84, 115);
 }
 @media screen and (max-width:576px){
-
+    /*banner section responsive*/
     .header{
         width:100%;
     
@@ -445,6 +445,8 @@ body{
     .banner-title{
         margin-top: 50px;
     }
+
+    /*Feature section responsive*/
     
     .Feature-section{
         max-width: auto;
@@ -551,6 +553,9 @@ body{
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
+
+    /*banner section responsive*/
+
     .header{
         width:100%;
     
@@ -570,6 +575,8 @@ body{
     .banner-title{
         margin-top: 50px;
     }
+
+    /*Feature section responsive*/
 
     .Feature-section{
         max-width: auto;
@@ -608,6 +615,8 @@ body{
         
     }
     
+    /*login-form responsive*/
+
     .login-form-input{
         width:100%;
         height:50px;
@@ -617,5 +626,50 @@ body{
         height: 50px;
         display: block;
         margin: 20px auto 0;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px){
+
+    /*banner section responsive*/
+
+    .header{
+        width:100%;
+    
+    }
+
+    /*Feature section responsive*/
+
+    .Feature-section{
+        max-width: auto;
+        margin: 150px auto 0;
+        text-align: center;
+    }
+    .Feature-section-description{
+       
+        width: auto;
+        text-align: center;
+        
+    }
+    .img-layer-1{
+        
+        width:auto;
+       
+    }
+    
+    .img-layer-2{
+        width:auto;
+        
+    }
+    
+    .img-layer-3{
+        
+        width:auto;
+       
+    }
+    .images > img{
+
+        width:auto;
+        
     }
 }
